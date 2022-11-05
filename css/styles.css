@@ -294,7 +294,7 @@ position: absolute;
     position: relative;
 }
 .form .modal-p:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .modal-p label {
