@@ -1,0 +1,110 @@
+.container-team {
+    width: 1200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section.team {
+    padding-top: 94px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.person {
+    background-color: var(--second-text-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.person:last-child {
+    margin-right: 0;
+}
+
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.name {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.text-p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hr {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 16px;
+    max-width: 100%;
+}
+.social-links {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.social-links:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-links:last-child {
+    margin-right: 0;
+}
+.icon-logo {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-logo-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-logo-link:hover,
+.icon-logo-link:focus {
+    background-color: var(--acceny-color);
+}
+
+.icon-logo-link:hover .icon-logo,
+.icon-logo-link:focus .icon-logo {
+    fill: rgba(255, 255, 255, 1);
+}
