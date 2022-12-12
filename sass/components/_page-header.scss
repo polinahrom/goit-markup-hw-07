@@ -6,7 +6,6 @@ header {
 .item {
     position: relative;
 }
-
 .current::after {
     content: '';
     position: absolute;
@@ -136,7 +135,6 @@ header {
 .contact-link.mail:focus {
     fill: var(--acceny-color);
 }
-
 .contact-link.tel:hover,
 .contact-link.tel:focus {
     fill: var(--acceny-color);
