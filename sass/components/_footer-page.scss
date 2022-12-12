@@ -119,7 +119,6 @@ address {
 
 .footer-form-input:placeholder-shown {
     font-size: 16px;
-
 }
 
 .follow {
@@ -170,4 +169,38 @@ address {
 
 a.map {
     color: var(--second-text-color);
+}
+address {
+    font-style: normal;
+}
+
+.logo {
+    color: var(--acceny-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.studio {
+    color: var(--second-text-color);
+}
+
+.nav-studio {
+    color: var(--title-text-color);
+}
+
+
+a.map {
+    color: var(--second-text-color);
+}
+
+.join-us-title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
